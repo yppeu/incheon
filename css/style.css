@@ -182,11 +182,15 @@ header {
 }
 
 /* section3 */
+.section3{
+    /* margin-bottom: 80px */
+}
 .board-wrap {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 80px
 }
 .news-wrap > .tit {
   display: flex;
@@ -299,20 +303,20 @@ header {
   flex-direction: row;
 }
 .chart-tab{
-    margin-right: 26%;
+    margin-right: 23%;
     position: relative
 }
 .chart-tab::after{
     content: '';
     position: absolute;
     top: 0;
-    right: -141px;
+    right: -125px;
     width: 1px;
     height: 100%;
     background: #b6b6b6
 }
 .chart-tab > ul > li {
-  font-size: 14px;
+  font-size: 13px;
   text-align: right;
   color: #666;
 }
@@ -374,8 +378,21 @@ header {
     background: #b6b6b6;
     margin-bottom: 8px;
 }
+.chart-num{
+    position: relative;
+}
+/* .chart-num::after{
+    content: '신고수(건)';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    right: 0;
+    font-size: 13px;
+    color: #666;
+} */
 .chart-num > p{
-    font-size: 14px;
+    font-size: 12px;
     text-align: right;
     color: #666;
 }
@@ -392,4 +409,17 @@ header {
 }
 .graph-txt > p:not(:last-child){
     margin-right: 40px;
+}
+.partner-wrap{
+    border-top: #EBEBEB 1px solid;
+}
+.partner-wrap > .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+}
+.partner-wrap > .logo2{
+    width: 100%;
+    height: 100%;
 }
