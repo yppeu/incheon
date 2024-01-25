@@ -5,10 +5,10 @@ $(document).ready(function(){
     centeredSlides: false,
     slidesPerGroup: 4,
     slidesPerGroupSkip: 0,
-    grabCursor: true,
+    // grabCursor: true,
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 4000,
       disableOnInteraction: false, // 사용자 상호작용 후에도 자동재생 유지
       stopOnLast: false, // 마지막 슬라이드에서 멈추지 않음
     },
