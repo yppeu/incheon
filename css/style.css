@@ -417,9 +417,20 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px 0;
+    align-items: center;
+    padding: 10px 0;
 }
-.partner-wrap > .logo2{
-    width: 100%;
+.partner-wrap > .inner > .logo2 > img{
+    width: 150px;
     height: 100%;
+}
+.partner-wrap > .inner > a:not(:last-child){
+    margin-right: 90px;
+}
+
+
+/* footer */
+footer{
+    background: #F7F8FC;
+    padding: 45px 0;
 }
