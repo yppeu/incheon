@@ -300,6 +300,16 @@ header {
 }
 .chart-tab{
     margin-right: 26%;
+    position: relative
+}
+.chart-tab::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -141px;
+    width: 1px;
+    height: 100%;
+    background: #b6b6b6
 }
 .chart-tab > ul > li {
   font-size: 14px;
@@ -307,7 +317,7 @@ header {
   color: #666;
 }
 .chart-tab > ul > li:not(:last-child) {
-  margin-bottom: 6px;
+  margin-bottom: 10.6px;
 }
 .graph-line{
     box-sizing: border-box;
@@ -320,26 +330,66 @@ header {
   margin-bottom: 8px;
 }
 .graph-line > .line2 {
-    width: 20px;
+    width: 16px;
     height: 23px;
     background: #2b4294;
     margin-bottom: 8px;
   }
-  .graph-line > .line3 {
-    width: 20px;
-    height: 23px;
-    background: #2b4294;
-    margin-bottom: 8px;
-  }
-  .graph-line > .line4 {
-    width: 20px;
+.graph-line > .line3{
+    position: relative;
+}
+.graph-line > .line3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 50px;
     height: 23px;
     background: #b6b6b6;
     margin-bottom: 8px;
-    rotate: -90;
-  }
+}
+.graph-line > .line4{
+    position: relative;
+}
+.graph-line > .line4::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    width: 30px;
+    height: 23px;
+    background: #b6b6b6;
+    margin-bottom: 8px;
+}
+.graph-line > .line5{
+    position: relative;
+}
+.graph-line > .line5::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: -100px;
+    width: 100px;
+    height: 23px;
+    background: #b6b6b6;
+    margin-bottom: 8px;
+}
+.chart-num > p{
+    font-size: 14px;
+    text-align: right;
+    color: #666;
+}
+.chart-num > p:not(:last-child){
+    margin-bottom: 10.6px;
+}
 .graph-txt{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+.graph-txt > p:not(:last-child){
+    margin-right: 40px;
 }
