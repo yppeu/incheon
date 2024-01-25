@@ -83,7 +83,8 @@ header{
     background-size: cover;
 }
 .mvisual-card{
-    padding: 0 12px;
+    width: 230px !important;
+    padding: 0 22px;
 }
 .mvisual-card > a > .img{
     display: block;
