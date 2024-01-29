@@ -434,3 +434,61 @@ footer{
     background: #F7F8FC;
     padding: 45px 0;
 }
+footer .inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fInfo-box{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+.fInfo-box > img{
+  margin-right: 60px;
+}
+.fInfo-txt > p{
+    font-size: 19px;
+    color: #333;
+    font-weight: 600;
+    line-height: 22px;
+}
+.fInfo-txt > a > p{
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 15px 0 10px;
+}
+.fInfo-address > span{
+  font-size: 14px;
+  color: #333;
+}
+.fCopy-box > p{
+    font-size: 12px;
+    color: #555;
+    line-height: 14px;
+    margin-top: 22px;
+}
+.fLinks-box,
+.fSns_wrap{
+  display: flex;
+  flex-direction: row;
+}
+.fSns_wrap{
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+dd{
+  display: none;
+}
